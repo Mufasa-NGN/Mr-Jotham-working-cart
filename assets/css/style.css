@@ -46,7 +46,8 @@ label {
 }
 
 #submitProduct {
-    background-color: blue;
+    /* background-color: blue; */
+    background-color: red;
     color: whitesmoke;
     width: 300px;
     padding: 10px;
