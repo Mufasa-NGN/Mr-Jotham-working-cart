@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    width: 90vw;
+    display:flex;
+    flex-direction: row;
+    padding: 50px;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 170px;
+}
+
+.logo>img {
+    width: 100%;
+    margin-right: 60px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.entry {
+    background-color: #DDEECC;
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 20px 50px;
+}
+
+input {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+label {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+#submitProduct {
+    background-color: blue;
+    color: whitesmoke;
+    width: 300px;
+    padding: 10px;
+    font-size: 25px;
+    margin: 0px auto;
+    cursor: pointer;
+    border-radius: 5.5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: teal;
+    color: whitesmoke;
+}
+
+.last {
+    margin-bottom: 40px;
+}
+
+
